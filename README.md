@@ -1,11 +1,8 @@
 # CS330
 Portfolio Submission
 
-**2D Animation and Collision Implementation Reflection**
+What new design skills has my work on the project helped to craft?
+Working on this project expanded my capabilities in spatial design, coordinate system transformations, and object-oriented component architecture. I learned how to translate visual concepts into mathematical constructs, utilizing parametric positioning, scaling, and precise RGB color manipulation to construct cohesive 2D/3D graphical scenes.
 
-In this project, I enhanced a 2D animation using OpenGL and GLFW by expanding objects behaviors and implementing custom collision mechanics.
-In order to improve the visual engagement, I structured the scene with distinct brick types, separating indestructible, reflective surfaces from destructible bricks. Upon the collision with a destructible brick, the system updates the brick’s state by reducing its durability (hit_cout), which then requires it to take multiple hits in order to destroy. Additionally, the brick darkens dynamically upon impact to provide immediate visual feedback.
-
-For circle physics, I updated screen boundary bounce, in order to preserve vector movement and speed across directional state that changes rather than relying on static paths. When circles interact with each other, the distance calculations evaluate bounding overlap; colliding circles then merge into a single, larger gold object while deactivating the consumed entity.
-
-This program modularized into distinct helper methods, such as CheckCollision and CheckCircleCollisions, this keeps execution logical and free from syntax errors. Code readability is maintained through descriptive inline comments, explicit variable typing, and standard indentation practices.
+What design process did I follow for my project work?
+My design process began with outlining the required scene objects, which involved categorizing objects by their functional traits (e.g indestructible reflective elements versus interactive elements). I created coordinate bounds, mapped out object interactions, and modularized functionalities.
