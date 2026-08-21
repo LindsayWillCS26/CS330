@@ -14,3 +14,7 @@ What new development strategies did I use while working on my 3D scene?
 I integrated event-driven input processing (processInput) alongside continuous render-loop updates. Additionally, I implemented real-time bounding box and distance-based collision detection algorithms to dynamically alter object geometry and state based on user input and environmental physics.
 
 How did iteration factor into my development?
+Development followed an iterative workflow: first by establishing a basic window and rendering a static geometry, then introducing changeable movement vectors, and then finally laying out collision responses. Testing edge cases, such as screen boundary bounces and parameter mismatches, was crucial at each stage.
+
+How has my project approach to developing code evolved throughout the milestones, which led me to this project's completion?
+I shifted from writing monolithic scripts to building structured, component-oriented code. I developed better resiliance on standard C++ vectors for Dynamic memory management, decoupled physics loops from rendering pipelines, and prioritized clear diameter mapping in order to remove compilation errors early in development.
